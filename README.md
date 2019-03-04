@@ -20,5 +20,5 @@ You will find 2 .CSV files for each image analyzed, corresponding to the assortm
 
 * **David Yanni (Georgia Tech, School of Physics)** 
 * **Pedro Márquez-Zacarías (Georgia Tech, School of Biological Sciences)**
-* **Peter Yunker (Georgia Tech, School of Physics)**
+* **Peter J. Yunker (Georgia Tech, School of Physics)**
 * **William C. Ratcliff (Georgia Tech, School of Biological Sciences)**
