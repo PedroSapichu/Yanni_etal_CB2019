@@ -2,69 +2,23 @@
 
 ## Getting Started
 
-The [Python script] provided here works with binary images. For this reason, it is useful for 2-strain competitions only. 
+The [Python script](https://github.com/PedroSapichu/Yanni_etal_CB2019/blob/master/ScriptAssortment.py) provided here works with binary images. For this reason, it is useful for 2-strain competitions only. You can run, for instance, one of our example images. Note that for each image there will be 2 assortment calculations given, one for the black pixels and one for the white. 
 
 ### Prerequisites
 
-You need to have inslalled Python. 
+You need to have inslalled Python (version 3 is recommended). Within Python, you will need to have installed the following packages: skimage, numpy, and scipy. 
 
-```
-Give examples
-```
+## Running the script
 
-### Installing
+Make sure that the script is located in the same folder where you have your image. This will also be the folder where the results will be stored, in .CSV files. 
 
-A step by step series of examples that tell you how to get a development env running
+## After running the script
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+You will find 2 .CSV files for each image analyzed, corresponding to the assortment values of the strains analyzed in each image. Note that there is an assortment value for each of the radius determined in the script (max. default radius is 500 pixels, so if your images are much bigger you can increase this parameter). 
 
 ## Authors
 
-* **David Yanni** 
-* **Pedro Márquez-Zacarías**
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **David Yanni (Georgia Tech, School of Physics)** 
+* **Pedro Márquez-Zacarías (Georgia Tech, School of Biological Sciences)**
+* **Peter Yunker (Georgia Tech, School of Physics)**
+* **William C. Ratcliff (Georgia Tech, School of Biological Sciences)**
