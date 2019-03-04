@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-The [Python script](https://github.com/PedroSapichu/Yanni_etal_CB2019/blob/master/ScriptAssortment.py) provided here works with binary images. For this reason, it is useful for 2-strain competitions only. You can run, for instance, one of our example images. Note that for each image there will be 2 assortment calculations given, one for the black pixels and one for the white. 
+The [Python script](https://github.com/PedroSapichu/Yanni_etal_CB2019/blob/master/ScriptAssortment.py) provided here works with binary images. For this reason, it is useful for 2-strain competitions only. You can run, for instance, one of our [example images](https://github.com/PedroSapichu/Yanni_etal_CB2019/blob/master/AssortedFigure.png). After running the script on each image there will be 2 assortment calculations given, one for the black pixels and one for the white. Just keep in mind which strain represents each of these colors.
 
 ### Prerequisites
 
