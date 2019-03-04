@@ -70,10 +70,6 @@ for x in range(3,areamax,2):
 # Calculate assortment
     red_assortment=(1-np.mean(reds)/(((len(a)**2)-1)*2) - red_freq) /(1-red_freq)
     blue_assortment=(1-np.mean(blues)/(((len(a)**2)-1)*2) - blue_freq) /(1-blue_freq)
-    #print "mean blues", np.mean(blues)
-    #print "mean reds", np.mean(reds)
-    print("blue r", blue_assortment)
-    print("red r", red_assortment)
     assortment_1.append(red_assortment)
     assortment_2.append(blue_assortment)
     
